@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ROMEROMEO SERVEGLOBE — Travel, MICE &amp; Event Partner | Corporate Events, Destination Weddings &amp; Tours</title>
+
+<!-- ============================ SEO & SOCIAL ============================ -->
+<meta name="description" content="ROMEROMEO SERVEGLOBE Pvt. Ltd. is your complete Travel, MICE & Event partner — corporate conferences, dealer meets, destination weddings, educational & industrial tours, luxury holidays and event management across India & 20+ international destinations." />
+<meta name="keywords" content="MICE company India, corporate events, destination weddings, educational tours, industrial visits, dealer meet, conference management, luxury holidays, event management, corporate travel" />
+<meta name="author" content="ROMEROMEO SERVEGLOBE PVT. LTD." />
+<meta name="robots" content="index, follow" />
+<!-- TODO: replace with your live canonical URL after go-live, e.g. https://romeromeo.com/ -->
+<link rel="canonical" href="https://romeromeo.com/" />
+
+<!-- Open Graph (WhatsApp / Facebook / LinkedIn previews) -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="ROMEROMEO SERVEGLOBE PVT. LTD." />
+<meta property="og:title" content="Your Complete Travel, MICE & Event Partner" />
+<meta property="og:description" content="Corporate MICE, destination weddings, educational tours, luxury holidays & full event management across India and 20+ countries." />
+<meta property="og:url" content="https://romeromeo.com/" />
+<!-- TODO: add a 1200x630 share image and uncomment:
+<meta property="og:image" content="https://romeromeo.com/assets/og-image.jpg" /> -->
+<meta name="twitter:card" content="summary_large_image" />
+
+<!-- Favicon: emoji placeholder. Replace with /assets/favicon.ico when you have a logo. -->
+<link rel="icon" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;✈️&lt;/text&gt;&lt;/svg&gt;" />
+
+<!-- Structured data: helps Google understand the business (great for local/MICE search). -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TravelAgency",
+  "name": "ROMEROMEO SERVEGLOBE PVT. LTD.",
+  "description": "Travel, MICE and Event Management company delivering corporate events, destination weddings, educational tours and luxury holidays across India and internationally.",
+  "url": "https://romeromeo.com/",
+  "telephone": "+91-62047-60841",
+  "email": "mice.corporateservice@gmail.com",
+  "areaServed": ["India", "International"],
+  "knowsAbout": ["Corporate MICE", "Destination Weddings", "Educational Tours", "Event Management", "Corporate Travel", "Industrial Visits"],
+  "slogan": "Creating Experiences • Connecting People • Delivering Excellence"
+}
+</script>
+
+<!-- Fonts: Fraunces (editorial display) · Manrope (modern UI/body) · Space Mono (data/labels) -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+
+<style>
+/* ============================================================
+   ROMEROMEO SERVEGLOBE — Design System
+   Concept: "The ServeGlobe Dossier" — a premium travel atelier.
+   Signature: an animated flight-route line that threads the page.
+   ============================================================ */
+
+:root{
+  --ink:#0D1B2A;          /* deep ocean-navy: hero, footer, dark bands */
+  --ink-2:#13283C;        /* lifted navy: cards on dark */
+  --ink-3:#1B3650;        /* hover navy */
+  --paper:#FBFAF7;        /* bright warm off-white: dominant light bg */
+  --paper-2:#F2EDE3;      /* subtle warm panel for alternating sections */
+  --gold:#C09A40;         /* refined brass accent */
+  --gold-2:#E2C57C;       /* lighter gold for glows/gradients */
+  --line:#E6DFD1;         /* hairline on light */
+  --line-d:rgba(255,255,255,.12); /* hairline on dark */
+  --ink-text:#15212E;     /* primary text on light */
+  --muted:#5C6671;        /* muted text on light */
+  --muted-d:#A6B6C7;      /* muted text on dark */
+
+  --display:"Fraunces", Georgia, serif;
+  --sans:"Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --mono:"Space Mono", ui-monospace, monospace;
+
+  --maxw:1200px;
+  --gut:clamp(20px, 5vw, 64px);
+  --r:14px;               /* card radius */
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--sans);
+  background:var(--paper);
+  color:var(--ink-text);
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  overflow-x:hidden;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+::selection{background:var(--gold);color:#fff}
+
+/* ---------- Layout helpers ---------- */
+.wrap{max-width:var(--maxw);margin-inline:auto;padding-inline:var(--gut)}
+.section{padding-block:clamp(64px,9vw,128px)}
+.section--tight{padding-block:clamp(48px,6vw,80px)}
+.dark{background:var(--ink);color:#fff}
+.dark .muted{color:var(--muted-d)}
+.warm{background:var(--paper-2)}
+
+.eyebrow{
+  font-family:var(--mono);
+  font-size:.72rem;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  color:var(--gold);
+  display:inline-flex;align-items:center;gap:.6em;
+  margin-bottom:1.1rem;
+}
+.eyebrow::before{content:"✦";font-size:.8em;opacity:.9}
+
+h1,h2,h3{font-family:var(--display);font-weight:500;line-height:1.08;letter-spacing:-.01em}
+.h-sec{font-size:clamp(2rem,4.4vw,3.3rem);color:var(--ink-text)}
+.dark .h-sec{color:#fff}
+.lead{font-size:clamp(1.02rem,1.6vw,1.18rem);color:var(--muted);max-width:60ch}
+.dark .lead{color:var(--muted-d)}
+
+.sec-head{max-width:760px;margin-bottom:clamp(40px,5vw,64px)}
+
+/* ---------- Buttons ---------- */
+.btn{
+  --b:var(--gold);
+  display:inline-flex;align-items:center;gap:.55em;
+  font-family:var(--sans);font-weight:600;font-size:.95rem;
+  padding:.92em 1.5em;border-radius:999px;
+  border:1px solid var(--b);background:var(--b);color:#0D1B2A;
+  cursor:pointer;transition:transform .25s ease, box-shadow .25s ease, background .25s ease, color .25s ease;
+  white-space:nowrap;
+}
+.btn:hover{transform:translateY(-2px);box-shadow:0 12px 28px -12px rgba(192,154,64,.7)}
+.btn .arr{transition:transform .25s ease}
+.btn:hover .arr{transform:translateX(4px)}
+.btn--ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.4)}
+.btn--ghost:hover{background:rgba(255,255,255,.08);box-shadow:none;border-color:#fff}
+.btn--ink{background:var(--ink);color:#fff;border-color:var(--ink)}
+.btn--ink:hover{box-shadow:0 14px 30px -14px rgba(13,27,42,.8)}
+.btn--ghost-ink{background:transparent;color:var(--ink-text);border-color:var(--line)}
+.btn--ghost-ink:hover{background:#fff;border-color:var(--ink-text);box-shadow:none}
+
+/* =========================================================
+   NAV
+   ========================================================= */
+header.nav{
+  position:fixed;inset:0 0 auto 0;z-index:100;
+  transition:background .35s ease, box-shadow .35s ease, padding .35s ease;
+  padding-block:18px;
+}
+header.nav.scrolled{
+  background:rgba(13,27,42,.92);
+  backdrop-filter:blur(12px);
+  box-shadow:0 1px 0 var(--line-d);
+  padding-block:11px;
+}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{display:flex;align-items:center;gap:.7rem;color:#fff;flex-shrink:0}
+.brand .glyph{
+  width:34px;height:34px;border-radius:9px;flex-shrink:0;
+  background:linear-gradient(135deg,var(--gold),var(--gold-2));
+  display:grid;place-items:center;color:var(--ink);font-size:1.05rem;
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.25);
+}
+.brand b{font-family:var(--display);font-weight:600;font-size:1.12rem;letter-spacing:.01em;line-height:1}
+.brand small{display:block;font-family:var(--mono);font-size:.56rem;letter-spacing:.28em;color:var(--gold-2);text-transform:uppercase;margin-top:3px}
+.nav-links{display:flex;align-items:center;gap:30px}
+.nav-links a{color:rgba(255,255,255,.82);font-size:.92rem;font-weight:500;position:relative;padding:4px 0;transition:color .2s}
+.nav-links a::after{content:"";position:absolute;left:0;bottom:-2px;height:1.5px;width:0;background:var(--gold-2);transition:width .25s ease}
+.nav-links a:hover{color:#fff}
+.nav-links a:hover::after{width:100%}
+.nav-cta{display:flex;align-items:center;gap:14px}
+.nav-call{display:flex;align-items:center;gap:.5em;color:#fff;font-weight:600;font-size:.92rem}
+.nav-call svg{stroke:var(--gold-2)}
+.burger{display:none;background:none;border:0;cursor:pointer;width:42px;height:42px;border-radius:10px;align-items:center;justify-content:center}
+.burger span{display:block;width:22px;height:2px;background:#fff;position:relative;transition:.3s}
+.burger span::before,.burger span::after{content:"";position:absolute;left:0;width:22px;height:2px;background:#fff;transition:.3s}
+.burger span::before{top:-7px}.burger span::after{top:7px}
+body.menu-open .burger span{background:transparent}
+body.menu-open .burger span::before{top:0;transform:rotate(45deg)}
+body.menu-open .burger span::after{top:0;transform:rotate(-45deg)}
+
+/* =========================================================
+   HERO
+   ========================================================= */
+.hero{
+  position:relative;background:var(--ink);color:#fff;overflow:hidden;
+  padding-top:clamp(140px,18vh,210px);padding-bottom:clamp(70px,9vw,120px);
+}
+/* atmospheric gradients */
+.hero::before{
+  content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
+  background:
+    radial-gradient(1100px 500px at 78% -8%, rgba(192,154,64,.20), transparent 60%),
+    radial-gradient(900px 600px at 8% 110%, rgba(27,54,80,.85), transparent 60%);
+}
+/* faint world-map / coordinate grid */
+.hero-grid{position:absolute;inset:0;z-index:0;opacity:.5;pointer-events:none}
+.hero .wrap{position:relative;z-index:2}
+.hero-tagline{
+  font-family:var(--mono);font-size:.72rem;letter-spacing:.24em;text-transform:uppercase;
+  color:var(--gold-2);margin-bottom:1.6rem;
+  opacity:0;animation:rise .8s .1s ease forwards;
+}
+.hero h1{
+  font-size:clamp(2.6rem,6.4vw,5.1rem);font-weight:500;max-width:16ch;
+  margin-bottom:1.4rem;opacity:0;animation:rise .9s .22s ease forwards;
+}
+.hero h1 em{font-style:italic;color:var(--gold-2)}
+.hero-sub{
+  font-size:clamp(1.05rem,1.8vw,1.32rem);color:#D7E0EA;max-width:54ch;line-height:1.6;
+  opacity:0;animation:rise .9s .34s ease forwards;
+}
+.hero-seg{
+  font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;color:var(--muted-d);
+  margin-top:1.5rem;text-transform:uppercase;
+  opacity:0;animation:rise .9s .42s ease forwards;
+}
+.hero-cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:2.4rem;opacity:0;animation:rise .9s .5s ease forwards}
+
+/* trust strip under hero */
+.trust-strip{
+  position:relative;z-index:2;border-top:1px solid var(--line-d);margin-top:clamp(48px,7vw,80px);
+  padding-top:clamp(28px,4vw,40px);
+  display:grid;grid-template-columns:repeat(6,1fr);gap:22px;
+  opacity:0;animation:rise 1s .6s ease forwards;
+}
+.trust-item{display:flex;flex-direction:column;gap:6px}
+.trust-item .tk{font-family:var(--mono);color:var(--gold-2);font-size:.85rem;letter-spacing:.04em}
+.trust-item .tl{font-size:.86rem;color:#C6D2DE;line-height:1.35}
+
+@keyframes rise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
+
+/* route line (signature) */
+.route svg{width:100%;height:auto;display:block}
+.route .path-bg{fill:none;stroke:rgba(255,255,255,.14);stroke-width:1.4;stroke-dasharray:2 7;stroke-linecap:round}
+.route .path-fg{fill:none;stroke:var(--gold-2);stroke-width:1.6;stroke-dasharray:2 7;stroke-linecap:round}
+.route .wp{fill:var(--gold-2)}
+.route .wp-ring{fill:none;stroke:var(--gold-2);stroke-width:1.2;opacity:.5}
+
+/* =========================================================
+   ABOUT
+   ========================================================= */
+.about-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(40px,6vw,90px);align-items:start}
+.about-body p{margin-bottom:1.15rem;color:var(--muted);font-size:1.05rem}
+.about-body p:first-of-type{font-size:1.18rem;color:var(--ink-text)}
+.pullquote{
+  border-left:3px solid var(--gold);padding:1.4rem 0 1.4rem 1.6rem;margin-top:2rem;
+}
+.pullquote q{font-family:var(--display);font-style:italic;font-size:clamp(1.3rem,2.4vw,1.7rem);line-height:1.35;color:var(--ink-text)}
+.pullquote q::before,.pullquote q::after{content:""}
+.about-card{
+  background:var(--ink);color:#fff;border-radius:var(--r);padding:clamp(28px,4vw,42px);
+  position:relative;overflow:hidden;
+}
+.about-card::before{content:"";position:absolute;inset:0;background:radial-gradient(500px 300px at 110% -10%,rgba(192,154,64,.22),transparent 60%)}
+.about-card h3{font-size:1.45rem;margin-bottom:1.4rem;position:relative}
+.mini-stats{display:grid;grid-template-columns:1fr 1fr;gap:24px 18px;position:relative}
+.mini-stats div .n{font-family:var(--display);font-size:2.1rem;color:var(--gold-2);line-height:1}
+.mini-stats div .l{font-size:.82rem;color:var(--muted-d);margin-top:.4rem;letter-spacing:.02em}
+
+/* =========================================================
+   SERVICES
+   ========================================================= */
+.svc-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(16px,2vw,26px)}
+.svc{
+  background:#fff;border:1px solid var(--line);border-radius:var(--r);
+  padding:clamp(26px,3vw,36px);position:relative;overflow:hidden;
+  transition:transform .35s ease, box-shadow .35s ease, border-color .35s ease;
+}
+.svc::after{content:"";position:absolute;left:0;top:0;height:3px;width:0;background:linear-gradient(90deg,var(--gold),var(--gold-2));transition:width .4s ease}
+.svc:hover{transform:translateY(-5px);box-shadow:0 26px 50px -28px rgba(13,27,42,.4);border-color:transparent}
+.svc:hover::after{width:100%}
+.svc-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.1rem}
+.svc-ico{width:50px;height:50px;border-radius:12px;display:grid;place-items:center;background:var(--paper-2);color:var(--ink);transition:background .35s,color .35s}
+.svc:hover .svc-ico{background:var(--ink);color:var(--gold-2)}
+.svc-ico svg{width:24px;height:24px}
+.svc-no{font-family:var(--mono);font-size:.78rem;color:var(--gold);letter-spacing:.08em}
+.svc h3{font-size:1.32rem;margin-bottom:.5rem;color:var(--ink-text)}
+.svc .svc-tag{font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:.9rem}
+.svc-list{display:flex;flex-wrap:wrap;gap:7px}
+.svc-list span{font-size:.82rem;color:var(--muted);background:var(--paper);border:1px solid var(--line);padding:.32em .75em;border-radius:999px}
+
+/* =========================================================
+   STATS BAND
+   ========================================================= */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;text-align:center}
+.stat .n{font-family:var(--display);font-size:clamp(2.6rem,5vw,3.8rem);color:var(--gold-2);line-height:1}
+.stat .l{margin-top:.6rem;color:var(--muted-d);font-size:.92rem;letter-spacing:.02em}
+.stat{position:relative}
+.stat:not(:last-child)::after{content:"";position:absolute;right:-15px;top:15%;height:70%;width:1px;background:var(--line-d)}
+
+/* =========================================================
+   DESTINATIONS
+   ========================================================= */
+.dest-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(20px,3vw,40px)}
+.dest-col h3{font-size:1.6rem;display:flex;align-items:baseline;gap:.7rem;margin-bottom:.4rem}
+.dest-col h3 b{font-family:var(--mono);font-weight:700;font-size:.9rem;color:var(--gold);letter-spacing:.06em}
+.dest-col > p{color:var(--muted);margin-bottom:1.4rem;font-size:.96rem}
+.chips{display:flex;flex-wrap:wrap;gap:9px}
+.chips span{
+  font-size:.88rem;padding:.45em .95em;border-radius:999px;background:#fff;border:1px solid var(--line);color:var(--ink-text);
+  transition:background .2s,color .2s,border-color .2s,transform .2s;cursor:default;
+}
+.chips span:hover{background:var(--ink);color:#fff;border-color:var(--ink);transform:translateY(-2px)}
+.warm .chips span{background:var(--paper)}
+
+/* =========================================================
+   PROCESS (signature route timeline)
+   ========================================================= */
+.proc{position:relative}
+.proc-track{display:grid;grid-template-columns:repeat(6,1fr);gap:18px;position:relative;margin-top:30px}
+.proc-line{position:absolute;left:0;right:0;top:26px;height:2px;z-index:0}
+.proc-line .lbg{position:absolute;inset:0;border-top:2px dashed var(--line-d)}
+.proc-line .lfg{position:absolute;left:0;top:-1px;height:0;border-top:2px dashed var(--gold-2);width:0;transition:width 1.4s ease}
+.proc.in .proc-line .lfg{width:100%}
+.step{position:relative;z-index:1;text-align:center}
+.step .dot{
+  width:54px;height:54px;border-radius:50%;margin:0 auto 18px;display:grid;place-items:center;
+  background:var(--ink-2);border:2px solid var(--line-d);color:var(--gold-2);
+  font-family:var(--mono);font-weight:700;font-size:1rem;transition:.4s;
+}
+.proc.in .step .dot{border-color:var(--gold-2);background:var(--ink-3);box-shadow:0 0 0 6px rgba(192,154,64,.12)}
+.step h4{font-family:var(--sans);font-weight:600;font-size:1rem;color:#fff;margin-bottom:.35rem}
+.step p{font-size:.84rem;color:var(--muted-d);line-height:1.45}
+
+/* =========================================================
+   INDUSTRIES
+   ========================================================= */
+.ind-grid{display:flex;flex-wrap:wrap;gap:11px}
+.ind-grid span{
+  display:inline-flex;align-items:center;gap:.5em;font-size:.92rem;font-weight:500;
+  padding:.6em 1.1em;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink-text);
+  transition:border-color .25s, transform .25s, box-shadow .25s;
+}
+.ind-grid span::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--gold)}
+.ind-grid span:hover{border-color:var(--gold);transform:translateY(-2px);box-shadow:0 10px 22px -14px rgba(13,27,42,.35)}
+
+/* =========================================================
+   WHY US
+   ========================================================= */
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(14px,1.6vw,22px)}
+.why{display:flex;gap:14px;padding:22px;border-radius:12px;background:#fff;border:1px solid var(--line);transition:border-color .25s,transform .25s}
+.why:hover{border-color:var(--gold);transform:translateY(-3px)}
+.why .wi{flex-shrink:0;width:40px;height:40px;border-radius:10px;background:var(--paper-2);display:grid;place-items:center;color:var(--ink)}
+.why .wi svg{width:20px;height:20px}
+.why b{display:block;font-weight:600;font-size:1rem;color:var(--ink-text);margin-bottom:.2rem}
+.why p{font-size:.86rem;color:var(--muted);line-height:1.45}
+
+/* =========================================================
+   TESTIMONIALS
+   ========================================================= */
+.tst-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(16px,2vw,26px)}
+.tst{background:var(--ink-2);border:1px solid var(--line-d);border-radius:var(--r);padding:clamp(26px,3vw,36px);position:relative}
+.tst .stars{color:var(--gold-2);letter-spacing:.18em;font-size:1rem;margin-bottom:1rem}
+.tst q{font-family:var(--display);font-style:italic;font-size:1.22rem;line-height:1.45;color:#EAF0F6;display:block}
+.tst q::before,.tst q::after{content:""}
+.tst .who{margin-top:1.3rem;font-family:var(--mono);font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted-d)}
+
+/* =========================================================
+   FAQ
+   ========================================================= */
+.faq-list{max-width:840px;margin-inline:auto}
+.faq{border-bottom:1px solid var(--line)}
+.faq button{
+  width:100%;background:none;border:0;cursor:pointer;text-align:left;
+  display:flex;align-items:center;justify-content:space-between;gap:20px;
+  padding:1.45rem 0;font-family:var(--display);font-size:clamp(1.08rem,2vw,1.3rem);color:var(--ink-text);font-weight:500;
+}
+.faq .ic{flex-shrink:0;width:30px;height:30px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;transition:.3s;position:relative}
+.faq .ic::before,.faq .ic::after{content:"";position:absolute;background:var(--ink-text);transition:.3s}
+.faq .ic::before{width:12px;height:1.6px}.faq .ic::after{width:1.6px;height:12px}
+.faq.open .ic{background:var(--gold);border-color:var(--gold)}
+.faq.open .ic::before,.faq.open .ic::after{background:#fff}
+.faq.open .ic::after{transform:scaleY(0)}
+.faq .ans{max-height:0;overflow:hidden;transition:max-height .35s ease}
+.faq .ans p{padding:0 0 1.45rem;color:var(--muted);font-size:1rem;max-width:70ch}
+
+/* =========================================================
+   CTA + CONTACT
+   ========================================================= */
+.cta{position:relative;overflow:hidden}
+.cta::before{content:"";position:absolute;inset:0;background:radial-gradient(800px 400px at 85% -20%,rgba(192,154,64,.22),transparent 60%)}
+.cta-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(40px,6vw,80px);align-items:center;position:relative;z-index:2}
+.cta h2{font-size:clamp(2.2rem,4.6vw,3.5rem);max-width:14ch}
+.cta h2 em{font-style:italic;color:var(--gold-2)}
+.cta-left p{color:var(--muted-d);font-size:1.1rem;margin-top:1.2rem;max-width:46ch}
+.cta-contact{margin-top:2rem;display:flex;flex-direction:column;gap:14px}
+.cta-contact a{display:inline-flex;align-items:center;gap:.7em;color:#fff;font-size:1.1rem;font-weight:600}
+.cta-contact a svg{stroke:var(--gold-2);flex-shrink:0}
+.cta-contact a:hover{color:var(--gold-2)}
+
+/* form */
+.form{background:#fff;border-radius:var(--r);padding:clamp(26px,3.5vw,40px);box-shadow:0 30px 70px -40px rgba(0,0,0,.6)}
+.form h3{font-size:1.5rem;color:var(--ink-text);margin-bottom:.4rem}
+.form .fsub{color:var(--muted);font-size:.92rem;margin-bottom:1.5rem}
+.field{margin-bottom:1rem}
+.field label{display:block;font-size:.78rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin-bottom:.45rem}
+.field input,.field select,.field textarea{
+  width:100%;font-family:var(--sans);font-size:.98rem;color:var(--ink-text);
+  padding:.85em 1em;border:1px solid var(--line);border-radius:10px;background:var(--paper);
+  transition:border-color .2s, box-shadow .2s;
+}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--gold);box-shadow:0 0 0 3px rgba(192,154,64,.15)}
+.field textarea{resize:vertical;min-height:96px}
+.f-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.form .btn{width:100%;justify-content:center;margin-top:.5rem}
+.form-note{font-size:.78rem;color:var(--muted);margin-top:.9rem;text-align:center}
+.form-msg{display:none;margin-top:1rem;padding:.9em 1em;border-radius:10px;font-size:.92rem}
+.form-msg.ok{display:block;background:#EAF6EC;color:#1E6B2E;border:1px solid #BFE3C6}
+.form-msg.err{display:block;background:#FCEDEA;color:#A03224;border:1px solid #F3C7BF}
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+footer.ft{background:#0A1622;color:#fff;padding-block:clamp(56px,7vw,80px) 0}
+.ft-top{display:grid;grid-template-columns:1.6fr 1fr 1fr 1.2fr;gap:40px}
+.ft-brand .brand{margin-bottom:1.1rem}
+.ft-brand p{color:var(--muted-d);font-size:.92rem;max-width:34ch;line-height:1.6}
+.ft-tags{font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;color:var(--gold-2);margin-top:1.1rem;line-height:1.8;text-transform:uppercase}
+.ft-col h4{font-family:var(--mono);font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-2);margin-bottom:1.1rem}
+.ft-col a{display:block;color:var(--muted-d);font-size:.92rem;padding:.32rem 0;transition:color .2s,padding .2s}
+.ft-col a:hover{color:#fff;padding-left:5px}
+.ft-contact a{display:flex;align-items:center;gap:.6em;color:#D7E0EA;font-size:.92rem;padding:.4rem 0}
+.ft-contact a svg{stroke:var(--gold-2);flex-shrink:0}
+.ft-bottom{border-top:1px solid var(--line-d);margin-top:clamp(40px,5vw,56px);padding-block:24px;display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}
+.ft-bottom small{color:var(--muted-d);font-size:.82rem}
+.ft-promise{font-family:var(--display);font-style:italic;color:var(--gold-2);font-size:1rem}
+
+/* =========================================================
+   REVEAL ANIMATION
+   ========================================================= */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease, transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+.reveal[data-d="1"]{transition-delay:.08s}
+.reveal[data-d="2"]{transition-delay:.16s}
+.reveal[data-d="3"]{transition-delay:.24s}
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+@media (max-width:1000px){
+  .about-grid,.cta-grid{grid-template-columns:1fr}
+  .ft-top{grid-template-columns:1fr 1fr}
+  .ft-brand{grid-column:1/-1}
+  .stat:not(:last-child)::after{display:none}
+}
+@media (max-width:820px){
+  .nav-links,.nav-call{display:none}
+  .burger{display:flex}
+  .nav-mobile{
+    position:fixed;inset:0;z-index:99;background:var(--ink);
+    display:flex;flex-direction:column;justify-content:center;gap:6px;padding:0 var(--gut);
+    transform:translateX(100%);transition:transform .4s cubic-bezier(.7,0,.2,1);
+  }
+  body.menu-open .nav-mobile{transform:none}
+  .nav-mobile a{color:#fff;font-family:var(--display);font-size:1.8rem;padding:.5rem 0;border-bottom:1px solid var(--line-d)}
+  .nav-mobile .btn{margin-top:1.6rem;align-self:flex-start}
+  .trust-strip{grid-template-columns:repeat(3,1fr);gap:18px}
+  .svc-grid,.tst-grid,.dest-grid{grid-template-columns:1fr}
+  .stats{grid-template-columns:repeat(2,1fr);gap:36px 20px}
+  .why-grid{grid-template-columns:1fr 1fr}
+  .proc-track{grid-template-columns:repeat(2,1fr);gap:34px 18px}
+  .proc-line{display:none}
+  .f-row{grid-template-columns:1fr}
+  .mini-stats{grid-template-columns:1fr 1fr}
+}
+@media (max-width:480px){
+  .trust-strip{grid-template-columns:1fr 1fr}
+  .why-grid{grid-template-columns:1fr}
+  .proc-track{grid-template-columns:1fr}
+  .hero-cta .btn{width:100%;justify-content:center}
+}
+
+/* Accessibility: respect reduced motion */
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+  .reveal{opacity:1;transform:none}
+}
+:focus-visible{outline:2.5px solid var(--gold-2);outline-offset:3px;border-radius:4px}
+</style>
+</head>
+<body>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a href="#top" class="brand" aria-label="ROMEROMEO SERVEGLOBE home">
+      <span class="glyph">✈</span>
+      <span><b>ROMEROMEO</b><small>Serveglobe</small></span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#destinations">Destinations</a>
+      <a href="#process">How We Work</a>
+      <a href="#why">Why Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="tel:+916204760841" class="nav-call">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+        +91 62047 60841
+      </a>
+      <a href="#contact" class="btn">Get Free Quote <span class="arr">→</span></a>
+    </div>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span></button>
+  </div>
+</header>
+
+<!-- mobile menu -->
+<nav class="nav-mobile" id="navMobile" aria-label="Mobile">
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#destinations">Destinations</a>
+  <a href="#process">How We Work</a>
+  <a href="#why">Why Us</a>
+  <a href="#contact">Contact</a>
+  <a href="#contact" class="btn">Get Free Quote →</a>
+</nav>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="top">
+  <!-- ambient coordinate grid -->
+  <svg class="hero-grid" viewBox="0 0 1440 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <defs>
+      <pattern id="dots" width="46" height="46" patternUnits="userSpaceOnUse">
+        <circle cx="1.4" cy="1.4" r="1.4" fill="rgba(255,255,255,.05)"/>
+      </pattern>
+    </defs>
+    <rect width="1440" height="600" fill="url(#dots)"/>
+  </svg>
+
+  <div class="wrap">
+    <p class="hero-tagline">Corporate Events · Destination Weddings · Tours · Conferences · Team Building</p>
+    <h1>Your complete <em>Travel, MICE</em> &amp; Event partner</h1>
+    <p class="hero-sub">Creating exceptional experiences across India &amp; international destinations — from corporate conferences and dealer meets to destination weddings, educational tours and luxury holidays.</p>
+    <p class="hero-seg">Corporate · Government · Educational Institutions · Families · Individual Travelers</p>
+    <div class="hero-cta">
+      <a href="#contact" class="btn">Plan Your Trip <span class="arr">→</span></a>
+      <a href="#contact" class="btn btn--ghost">Get Free Quote</a>
+      <a href="tel:+916204760841" class="btn btn--ghost">Talk to Our Expert</a>
+    </div>
+
+    <!-- signature route line -->
+    <div class="route" aria-hidden="true" style="margin-top:clamp(40px,6vw,70px)">
+      <svg viewBox="0 0 1200 90" id="routeSvg">
+        <path class="path-bg" d="M20,70 C 220,70 260,18 460,18 S 760,72 980,40 S 1140,22 1180,22"/>
+        <path class="path-fg" id="routeFg" d="M20,70 C 220,70 260,18 460,18 S 760,72 980,40 S 1140,22 1180,22"/>
+        <g><circle class="wp-ring" cx="20" cy="70" r="9"/><circle class="wp" cx="20" cy="70" r="3.5"/></g>
+        <g><circle class="wp-ring" cx="460" cy="18" r="9"/><circle class="wp" cx="460" cy="18" r="3.5"/></g>
+        <g><circle class="wp-ring" cx="980" cy="40" r="9"/><circle class="wp" cx="980" cy="40" r="3.5"/></g>
+        <g id="plane"><path d="M-9,-2 L9,-2 L4,2 L-4,2 Z M2,-2 L6,-9 L8,-9 L5,-2 Z M2,2 L5,8 L7,8 L4,2 Z" fill="#E2C57C" transform="rotate(8)"/></g>
+      </svg>
+    </div>
+
+    <!-- trust strip -->
+    <div class="trust-strip">
+      <div class="trust-item"><span class="tk">01</span><span class="tl">Professional Project Management</span></div>
+      <div class="trust-item"><span class="tk">02</span><span class="tl">PAN India Operations</span></div>
+      <div class="trust-item"><span class="tk">03</span><span class="tl">International Destination Expertise</span></div>
+      <div class="trust-item"><span class="tk">04</span><span class="tl">End-to-End Event Solutions</span></div>
+      <div class="trust-item"><span class="tk">05</span><span class="tl">Customized Tour Planning</span></div>
+      <div class="trust-item"><span class="tk">06</span><span class="tl">Dedicated Support Team</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section class="section" id="about">
+  <div class="wrap about-grid">
+    <div class="about-left reveal">
+      <p class="eyebrow">About Us</p>
+      <h2 class="h-sec">One trusted partner for every journey &amp; every event</h2>
+      <div class="about-body" style="margin-top:1.6rem">
+        <p>ROMEROMEO SERVEGLOBE Pvt. Ltd. is one of India's growing Travel, MICE and Event Management companies — delivering complete travel and business-event solutions under one roof.</p>
+        <p>From corporate conferences and dealer meets to educational tours, industrial visits, luxury vacations, destination weddings and promotional campaigns, we manage every detail with professionalism and precision.</p>
+        <div class="pullquote">
+          <q>Our mission is to simplify travel and event planning while creating unforgettable experiences for every client.</q>
+        </div>
+      </div>
+    </div>
+    <aside class="about-card reveal" data-d="1">
+      <h3>A single team behind it all</h3>
+      <div class="mini-stats">
+        <div><div class="n">500+</div><div class="l">Destinations across India</div></div>
+        <div><div class="n">20+</div><div class="l">International countries</div></div>
+        <div><div class="n">14</div><div class="l">Industries served</div></div>
+        <div><div class="n">24×7</div><div class="l">Dedicated assistance</div></div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ===================== SERVICES ===================== -->
+<section class="section warm" id="services">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">Our Services</p>
+      <h2 class="h-sec">Everything you need. One trusted partner.</h2>
+      <p class="lead" style="margin-top:1rem">Eight integrated practice areas, run by one accountable team — so corporate planners, institutions and families all deal with a single point of contact.</p>
+    </div>
+
+    <div class="svc-grid">
+      <!-- 1 -->
+      <article class="svc reveal">
+        <div class="svc-top">
+          <div class="svc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/><path d="M9 9v.01M9 12v.01M9 15v.01"/></svg></div>
+          <span class="svc-no">01</span>
+        </div>
+        <h3>Corporate MICE</h3>
+        <span class="svc-tag">Meetings · Incentives · Conferences · Exhibitions</span>
+        <div class="svc-list"><span>Conferences</span><span>Dealer Meets</span><span>Annual Meets</span><span>Incentive Tours</span><span>Product Launches</span><span>Leadership Summits</span><span>Award Functions</span><span>Team Building</span></div>
+      </article>
+      <!-- 2 -->
+      <article class="svc reveal" data-d="1">
+        <div class="svc-top">
+          <div class="svc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg></div>
+          <span class="svc-no">02</span>
+        </div>
+        <h3>Domestic Holidays</h3>
+        <span class="svc-tag">Discover Incredible India</span>
+        <div class="svc-list"><span>Kashmir</span><span>Himachal</span><span>Rajasthan</span><span>Kerala</span><span>Goa</span><span>Sikkim</span><span>Andaman</span><span>Northeast</span><span>Luxury &amp; Family Tours</span></div>
+      </article>
+      <!-- 3 -->
+      <article class="svc reveal" data-d="2">
+        <div class="svc-top">
+          <div class="svc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.7 3.8 9S14.5 18.5 12 21M12 3c-2.5 2.5-3.8 5.7-3.8 9S9.5 18.5 12 21"/></svg></div>
+          <span class="svc-no">03</span>
+        </div>
+        <h3>International Holidays</h3>
+        <span class="svc-tag">Explore The World · 20+ Countries</span>
+        <div class="svc-list"><span>Dubai</span><span>Thailand</span><span>Bali</span><span>Singapore</span><span>Maldives</span><span>Europe</span><span>Mauritius</span><span>Custom Packages</span><span>Travel Insurance</span></div>
+      </article>
+      <!-- 4 -->
+      <article class="svc reveal">
+        <div class="svc-top">
+          <div class="svc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 4c-1.5 2-1.5 3.5 0 5 1.5-1.5 1.5-3 0-5Z"/><path d="M5 21c0-4 3-6 7-6s7 2 7 6"/><circle cx="12" cy="11" r="0"/><path d="M4 14l2-2 2 2M16 14l2-2 2 2"/></svg></div>
+          <span class="svc-no">04</span>
+        </div>
+        <h3>Destination Weddings</h3>
+        <span class="svc-tag">Your dream wedding begins here</span>
+        <div class="svc-list"><span>Venue Selection</span><span>Guest Management</span><span>Decor</span><span>Hospitality</span><span>Entertainment</span><span>Logistics</span><span>Udaipur</span><span>Goa</span><span>Bali</span></div>
+      </article>
+      <!-- 5 -->
+      <article class="svc reveal" data-d="1">
+        <div class="svc-top">
+          <div class="svc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 7l9-4 9 4-9 4-9-4Z"/><path d="M21 7v6M7 9.5V14c0 1.5 2.5 3 5 3s5-1.5 5-3V9.5"/></svg></div>
+          <span class="svc-no">05</span>
+        </div>
+        <h3>Educational Tours</h3>
+        <span class="svc-tag">Learning beyond classrooms</span>
+        <div class="svc-list"><span>Industrial Visits</span><span>School Excursions</span><span>College Tours</span><span>Research Tours</span><span>Manufacturing Plants</span><span>Faculty Tours</span><span>Full Safety Cover</span></div>
+      </article>
+      <!-- 6 -->
+      <article class="svc reveal" data-d="2">
+        <div class="svc-top">
+          <div class="svc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 4V2M16 4V2M8 14l2 2 4-4"/></svg></div>
+          <span class="svc-no">06</span>
+        </div>
+        <h3>Event Management</h3>
+        <span class="svc-tag">End-to-end execution</span>
+        <div class="svc-list"><span>Corporate Events</span><span>Award Nights</span><span>Dealer Conferences</span><span>Annual Day</span><span>Government Events</span><span>Seminars</span><span>Exhibitions</span><span>Cultural Programs</span></div>
+      </article>
+      <!-- 7 -->
+      <article class="svc reveal">
+        <div class="svc-top">
+          <div class="svc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 11l18-7-7 18-2.5-7.5L3 11Z"/></svg></div>
+          <span class="svc-no">07</span>
+        </div>
+        <h3>Branding &amp; Promotions</h3>
+        <span class="svc-tag">On-ground activation</span>
+        <div class="svc-list"><span>Road Shows</span><span>Mall Activations</span><span>Retail Promotions</span><span>BTL Campaigns</span><span>Product Sampling</span><span>Corporate Branding</span><span>Marketing Events</span></div>
+      </article>
+      <!-- 8 -->
+      <article class="svc reveal" data-d="1">
+        <div class="svc-top">
+          <div class="svc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M2 12l8-1 4-7 1 8 7 1-7 1-1 8-4-7-8-1Z"/></svg></div>
+          <span class="svc-no">08</span>
+        </div>
+        <h3>Business Travel</h3>
+        <span class="svc-tag">Managed corporate travel desk</span>
+        <div class="svc-list"><span>Flight Booking</span><span>Hotel Reservations</span><span>Airport Transfers</span><span>Executive Travel</span><span>Visa Support</span><span>Travel Desk Management</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== STATS BAND ===================== -->
+<section class="section--tight dark">
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat reveal"><div class="n">500+</div><div class="l">Destinations across India</div></div>
+      <div class="stat reveal" data-d="1"><div class="n">20+</div><div class="l">International countries</div></div>
+      <div class="stat reveal" data-d="2"><div class="n">8</div><div class="l">Integrated service lines</div></div>
+      <div class="stat reveal" data-d="3"><div class="n">24×7</div><div class="l">Dedicated support</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== DESTINATIONS ===================== -->
+<section class="section warm" id="destinations">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">Destinations</p>
+      <h2 class="h-sec">Where would you like to go?</h2>
+    </div>
+    <div class="dest-grid">
+      <div class="dest-col reveal">
+        <h3>India <b>500+ DESTINATIONS</b></h3>
+        <p>Coverage across every region — for holidays, MICE programs, educational tours and weddings.</p>
+        <div class="chips">
+          <span>Kashmir</span><span>Himachal</span><span>Uttarakhand</span><span>Rajasthan</span><span>Goa</span><span>Kerala</span><span>Sikkim</span><span>Darjeeling</span><span>Northeast India</span><span>Odisha</span><span>Andaman</span><span>Lakshadweep</span>
+        </div>
+      </div>
+      <div class="dest-col reveal" data-d="1">
+        <h3>International <b>20+ COUNTRIES</b></h3>
+        <p>Curated international packages with visa support, insurance and on-ground coordination.</p>
+        <div class="chips">
+          <span>Nepal</span><span>Bhutan</span><span>Dubai</span><span>Thailand</span><span>Bali</span><span>Singapore</span><span>Malaysia</span><span>Vietnam</span><span>Maldives</span><span>Sri Lanka</span><span>Mauritius</span><span>Europe</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PROCESS ===================== -->
+<section class="section dark" id="process">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">How We Work</p>
+      <h2 class="h-sec">A clear route from brief to flawless execution</h2>
+    </div>
+    <div class="proc" id="proc">
+      <div class="proc-line"><div class="lbg"></div><div class="lfg"></div></div>
+      <div class="proc-track">
+        <div class="step reveal"><div class="dot">01</div><h4>Share Requirement</h4><p>Tell us your goals, dates &amp; budget.</p></div>
+        <div class="step reveal" data-d="1"><div class="dot">02</div><h4>Custom Proposal</h4><p>A tailored plan built for you.</p></div>
+        <div class="step reveal" data-d="2"><div class="dot">03</div><h4>Planning &amp; Budgeting</h4><p>Itinerary, vendors &amp; costs locked.</p></div>
+        <div class="step reveal" data-d="3"><div class="dot">04</div><h4>Booking &amp; Confirmation</h4><p>Everything secured &amp; confirmed.</p></div>
+        <div class="step reveal" data-d="3"><div class="dot">05</div><h4>Execution</h4><p>On-ground delivery, end to end.</p></div>
+        <div class="step reveal" data-d="3"><div class="dot">06</div><h4>Post-Event Support</h4><p>Wrap-up, reporting &amp; follow-through.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== INDUSTRIES ===================== -->
+<section class="section" id="industries">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">Industries We Serve</p>
+      <h2 class="h-sec">Trusted across sectors</h2>
+    </div>
+    <div class="ind-grid reveal">
+      <span>Information Technology</span><span>Manufacturing</span><span>Automobile</span><span>Education</span><span>Healthcare</span><span>Pharmaceutical</span><span>Government</span><span>Hospitality</span><span>Banking</span><span>Insurance</span><span>Real Estate</span><span>Infrastructure</span><span>FMCG</span><span>NGOs</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== WHY US ===================== -->
+<section class="section warm" id="why">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">Why Choose Us</p>
+      <h2 class="h-sec">Experience that delivers results</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why reveal"><div class="wi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M9 11l3 3L22 4M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div><div><b>Professional Planning</b><p>Structured, accountable project management on every brief.</p></div></div>
+      <div class="why reveal" data-d="1"><div class="wi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg></div><div><b>Dedicated Manager</b><p>A single relationship manager who owns your account.</p></div></div>
+      <div class="why reveal" data-d="2"><div class="wi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div><div><b>Transparent Pricing</b><p>Clear quotes with no hidden costs, every time.</p></div></div>
+      <div class="why reveal"><div class="wi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2l2.5 7H22l-6 4.5L18.5 21 12 16.8 5.5 21 8 13.5 2 9h7.5L12 2Z"/></svg></div><div><b>Customized Solutions</b><p>Programs built around your objectives, not a template.</p></div></div>
+      <div class="why reveal" data-d="1"><div class="wi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div><div><b>24×7 Assistance</b><p>Reachable support before, during and after your event.</p></div></div>
+      <div class="why reveal" data-d="2"><div class="wi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M16 3h5v5M21 3l-9 9M8 21H3v-5M3 21l9-9"/></svg></div><div><b>Strong Vendor Network</b><p>Premium hospitality partners across India &amp; abroad.</p></div></div>
+      <div class="why reveal"><div class="wi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 21h18M5 21V8l7-5 7 5v13M9 21v-6h6v6"/></svg></div><div><b>Experienced Team</b><p>Specialists across MICE, leisure, weddings &amp; education.</p></div></div>
+      <div class="why reveal" data-d="1"><div class="wi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M20 6 9 17l-5-5"/></svg></div><div><b>Timely Execution</b><p>Delivered on schedule, down to the last detail.</p></div></div>
+      <div class="why reveal" data-d="2"><div class="wi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 1 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/></svg></div><div><b>Customer-First Approach</b><p>Your experience and outcomes come before everything.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TESTIMONIALS ===================== -->
+<section class="section dark" id="testimonials">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">Testimonials</p>
+      <h2 class="h-sec">What our clients say</h2>
+    </div>
+    <div class="tst-grid">
+      <div class="tst reveal"><div class="stars">★★★★★</div><q>Professional planning, seamless execution and excellent hospitality.</q><div class="who">Corporate Client</div></div>
+      <div class="tst reveal" data-d="1"><div class="stars">★★★★★</div><q>Our corporate conference was managed flawlessly.</q><div class="who">Conference Organizer</div></div>
+      <div class="tst reveal"><div class="stars">★★★★★</div><q>The educational tour was well organized, with complete safety.</q><div class="who">Educational Institution</div></div>
+      <div class="tst reveal" data-d="1"><div class="stars">★★★★★</div><q>Highly recommended for destination weddings.</q><div class="who">Wedding Client</div></div>
+    </div>
+    <p style="text-align:center;margin-top:1.6rem;font-size:.82rem;color:var(--muted-d);font-family:var(--mono);letter-spacing:.06em">
+      ↑ Replace with real names &amp; companies once you have client permission — it dramatically increases conversions.
+    </p>
+  </div>
+</section>
+
+<!-- ===================== FAQ ===================== -->
+<section class="section" id="faq">
+  <div class="wrap">
+    <div class="sec-head reveal" style="text-align:center;margin-inline:auto">
+      <p class="eyebrow">FAQ</p>
+      <h2 class="h-sec">Frequently asked questions</h2>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq"><button aria-expanded="false">Do you organize corporate conferences?<span class="ic"></span></button><div class="ans"><p>Yes. Conferences, dealer meets, annual meets, incentive tours, award nights and product launches are a core part of our MICE practice — managed end to end, from venue to execution.</p></div></div>
+      <div class="faq"><button aria-expanded="false">Can you arrange international tours?<span class="ic"></span></button><div class="ans"><p>Absolutely. We design customized international packages across 20+ countries including Dubai, Thailand, Bali, Singapore, Maldives, Europe and more — with travel insurance and on-ground support.</p></div></div>
+      <div class="faq"><button aria-expanded="false">Do you provide visa assistance?<span class="ic"></span></button><div class="ans"><p>Yes, visa support is part of our business-travel and international-holiday services, alongside flight booking, hotel reservations and airport transfers.</p></div></div>
+      <div class="faq"><button aria-expanded="false">Can you customize educational tours?<span class="ic"></span></button><div class="ans"><p>Every educational tour is tailored — industrial visits, college and university trips, research and faculty tours — planned with complete safety and logistics handled for you.</p></div></div>
+      <div class="faq"><button aria-expanded="false">Do you organize destination weddings?<span class="ic"></span></button><div class="ans"><p>Yes. From venue selection and guest management to decor, hospitality, entertainment and full wedding logistics across India and international destinations.</p></div></div>
+      <div class="faq"><button aria-expanded="false">Do you provide transportation and hotel booking?<span class="ic"></span></button><div class="ans"><p>Yes — transportation, hotel reservations, airport transfers and a managed travel desk are available standalone or as part of any program.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA + CONTACT ===================== -->
+<section class="section dark cta" id="contact">
+  <div class="wrap cta-grid">
+    <div class="cta-left reveal">
+      <p class="eyebrow">Let's Talk</p>
+      <h2>Let's create something <em>extraordinary</em> together</h2>
+      <p>Whether you're planning a corporate conference, a destination wedding, an educational tour or your dream holiday — our experts are ready to help.</p>
+      <div class="cta-contact">
+        <a href="tel:+916204760841"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>+91 62047 60841</a>
+        <a href="mailto:mice.corporateservice@gmail.com"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 6 10 7L22 6"/></svg>mice.corporateservice@gmail.com</a>
+      </div>
+    </div>
+
+    <!-- Lead form. Works on any static host. See activation note in <script> below. -->
+    <div class="form reveal" data-d="1">
+      <h3>Book a free consultation</h3>
+      <p class="fsub">Tell us a little about your plan — we'll get back within one business day.</p>
+      <form id="leadForm" novalidate>
+        <!-- Web3Forms: paste your access key below to receive leads by email (free). -->
+        <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY" />
+        <input type="hidden" name="subject" value="New enquiry from romeromeo.com" />
+        <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" />
+        <div class="f-row">
+          <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" placeholder="Your full name" required /></div>
+          <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" placeholder="+91 ..." required /></div>
+        </div>
+        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="you@company.com" required /></div>
+        <div class="field"><label for="service">I'm interested in</label>
+          <select id="service" name="service">
+            <option>Corporate MICE / Conference</option>
+            <option>Destination Wedding</option>
+            <option>Educational / Industrial Tour</option>
+            <option>Domestic Holiday</option>
+            <option>International Holiday</option>
+            <option>Event Management</option>
+            <option>Branding &amp; Promotions</option>
+            <option>Business / Corporate Travel</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="field"><label for="message">Brief</label><textarea id="message" name="message" placeholder="Dates, group size, destination, budget — anything helps."></textarea></div>
+        <button type="submit" class="btn">Send Enquiry <span class="arr">→</span></button>
+        <p class="form-note">Or WhatsApp / call us directly at +91 62047 60841</p>
+        <div class="form-msg" id="formMsg" role="status"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="ft">
+  <div class="wrap">
+    <div class="ft-top">
+      <div class="ft-brand">
+        <a href="#top" class="brand"><span class="glyph">✈</span><span><b>ROMEROMEO</b><small>Serveglobe</small></span></a>
+        <p>Your complete Travel, MICE &amp; Event partner — creating exceptional experiences across India and international destinations.</p>
+        <p class="ft-tags">Travel · MICE · Destination Weddings · Events · Educational Tours · Branding · Corporate Travel</p>
+      </div>
+      <div class="ft-col">
+        <h4>Explore</h4>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#process">How We Work</a>
+        <a href="#why">Why Us</a>
+      </div>
+      <div class="ft-col">
+        <h4>Services</h4>
+        <a href="#services">Corporate MICE</a>
+        <a href="#services">Destination Weddings</a>
+        <a href="#services">Educational Tours</a>
+        <a href="#services">Event Management</a>
+        <a href="#services">Business Travel</a>
+      </div>
+      <div class="ft-col ft-contact">
+        <h4>Get in Touch</h4>
+        <a href="tel:+916204760841"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>+91 62047 60841</a>
+        <a href="mailto:mice.corporateservice@gmail.com"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 6 10 7L22 6"/></svg>mice.corporateservice@gmail.com</a>
+        <a href="#contact" class="btn" style="margin-top:1rem">Get Free Quote →</a>
+      </div>
+    </div>
+    <div class="ft-bottom">
+      <small>© <span id="yr"></span> ROMEROMEO SERVEGLOBE PVT. LTD. All rights reserved.</small>
+      <span class="ft-promise">Creating Experiences • Connecting People • Delivering Excellence</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ---------- year ---------- */
+document.getElementById('yr').textContent = new Date().getFullYear();
+
+/* ---------- sticky nav ---------- */
+const nav = document.getElementById('nav');
+const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 40);
+onScroll(); window.addEventListener('scroll', onScroll, {passive:true});
+
+/* ---------- mobile menu ---------- */
+const burger = document.getElementById('burger');
+const closeMenu = () => { document.body.classList.remove('menu-open'); burger.setAttribute('aria-expanded','false'); };
+burger.addEventListener('click', () => {
+  const open = document.body.classList.toggle('menu-open');
+  burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+});
+document.querySelectorAll('#navMobile a').forEach(a => a.addEventListener('click', closeMenu));
+
+/* ---------- reveal on scroll ---------- */
+const io = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+}, {threshold:0.14, rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+/* ---------- process route activation ---------- */
+const proc = document.getElementById('proc');
+if (proc){
+  const pIO = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting){ proc.classList.add('in'); pIO.unobserve(proc); } });
+  }, {threshold:0.3});
+  pIO.observe(proc);
+}
+
+/* ---------- hero route line draw + plane glide ---------- */
+(function(){
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const fg = document.getElementById('routeFg');
+  const plane = document.getElementById('plane');
+  if (!fg || !plane) return;
+  const len = fg.getTotalLength();
+  fg.style.strokeDasharray = len; fg.style.strokeDashoffset = len;
+  if (reduce){ fg.style.strokeDashoffset = 0; plane.style.opacity = 0; return; }
+  let start = null; const dur = 2600;
+  function tick(t){
+    if (!start) start = t;
+    const p = Math.min((t - start) / dur, 1);
+    const eased = 1 - Math.pow(1 - p, 3);
+    fg.style.strokeDashoffset = len * (1 - eased);
+    const pt = fg.getPointAtLength(len * eased);
+    const ahead = fg.getPointAtLength(Math.min(len * eased + 1, len));
+    const ang = Math.atan2(ahead.y - pt.y, ahead.x - pt.x) * 180 / Math.PI;
+    plane.setAttribute('transform', `translate(${pt.x} ${pt.y}) rotate(${ang})`);
+    plane.style.opacity = p < 1 ? 1 : 0;
+    if (p < 1) requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+})();
+
+/* ---------- FAQ accordion ---------- */
+document.querySelectorAll('.faq button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const item = btn.parentElement;
+    const ans = item.querySelector('.ans');
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq.open').forEach(o => {
+      o.classList.remove('open'); o.querySelector('.ans').style.maxHeight = null;
+      o.querySelector('button').setAttribute('aria-expanded','false');
+    });
+    if (!isOpen){
+      item.classList.add('open'); ans.style.maxHeight = ans.scrollHeight + 'px';
+      btn.setAttribute('aria-expanded','true');
+    }
+  });
+});
+
+/* ---------- lead form ---------- *
+   ACTIVATION (2 minutes, free, no server needed):
+   1. Go to https://web3forms.com  → enter the business email → get an Access Key.
+   2. Paste that key into the hidden "access_key" input in the form above.
+   Leads will then arrive directly in the inbox. Until then, the form shows a
+   friendly fallback asking visitors to call/WhatsApp.
+*/
+const form = document.getElementById('leadForm');
+const msg = document.getElementById('formMsg');
+form.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  msg.className = 'form-msg';
+  const key = form.access_key.value.trim();
+  // basic validation
+  if (!form.name.value.trim() || !form.phone.value.trim() || !form.email.value.trim()){
+    msg.textContent = 'Please add your name, phone and email so we can reach you.';
+    msg.classList.add('err'); return;
+  }
+  if (key === 'YOUR_WEB3FORMS_ACCESS_KEY' || !key){
+    msg.innerHTML = 'Thanks! The form isn\'t connected yet — please call or WhatsApp <b>+91 62047 60841</b> and we\'ll respond right away.';
+    msg.classList.add('ok'); return;
+  }
+  const btn = form.querySelector('button[type=submit]');
+  const label = btn.innerHTML; btn.innerHTML = 'Sending…'; btn.disabled = true;
+  try{
+    const res = await fetch('https://api.web3forms.com/submit', {
+      method:'POST', headers:{'Content-Type':'application/json','Accept':'application/json'},
+      body: JSON.stringify(Object.fromEntries(new FormData(form)))
+    });
+    const data = await res.json();
+    if (data.success){
+      msg.textContent = 'Thank you! Your enquiry has been sent. Our team will contact you within one business day.';
+      msg.classList.add('ok'); form.reset();
+    } else { throw new Error(); }
+  }catch(err){
+    msg.innerHTML = 'Something went wrong sending the form. Please call or WhatsApp <b>+91 62047 60841</b>.';
+    msg.classList.add('err');
+  }finally{ btn.innerHTML = label; btn.disabled = false; }
+});
+</script>
+</body>
+</html>
